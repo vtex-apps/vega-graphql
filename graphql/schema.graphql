@@ -1,0 +1,13 @@
+type SpecLocator {
+  appId: String
+  specName: String
+}
+
+type Query {
+  spec (
+    specName: String!,
+    appId: String
+  ): String
+
+  specs: [SpecLocator]
+}

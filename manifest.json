@@ -1,0 +1,21 @@
+{
+  "name": "vega-graphql",
+  "vendor": "vtex",
+  "version": "0.1.0",
+  "title": "Vega Server",
+  "description": "Vega spec server for the VTEX IO platform",
+  "mustUpdateAt": "2019-10-16",
+  "scripts": {
+    "postreleasy": "vtex publish --public"
+  },
+  "builders": {
+    "node": "3.x",
+    "graphql": "1.x"
+  },
+  "credential": "relative",
+  "policies": [
+    {
+      "name": "read-workspace-apps"
+    }
+  ]
+}
