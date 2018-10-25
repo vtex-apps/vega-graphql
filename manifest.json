@@ -1,7 +1,7 @@
 {
   "name": "vega-graphql",
   "vendor": "vtex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Vega Server",
   "description": "Vega spec server for the VTEX IO platform",
   "mustUpdateAt": "2019-10-16",
