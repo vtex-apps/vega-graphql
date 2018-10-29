@@ -6,6 +6,7 @@
   "description": "Vega spec server for the VTEX IO platform",
   "mustUpdateAt": "2019-10-16",
   "scripts": {
+    "prereleasy": "bash lint.sh",
     "postreleasy": "vtex publish --public"
   },
   "builders": {
