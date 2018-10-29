@@ -38,7 +38,7 @@ declare global {
 
   interface Layout {
     specLocator: SpecLocator
-    spec: String
+    spec: string
   }
 
   interface LayoutContainer {
